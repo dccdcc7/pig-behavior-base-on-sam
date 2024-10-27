@@ -1,0 +1,8 @@
+type: yolov5
+name: orginal
+display_name: pig1
+model_path: F:\pycharmproject\segment-anything\yolo-pyqt\orginal.onnx
+nms_threhold: 0.3
+confidence_threhold: 0.4
+class:
+  - pig
