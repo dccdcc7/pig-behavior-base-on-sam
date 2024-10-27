@@ -2,7 +2,7 @@
 The pig farming industry is vital to animal husbandry, with health assessments key to efficient production. Traditional methods relying on manual observation are inadequate for modern, large-scale operations. To address this, a new approach combining multi-target tracking and instance segmentation using improved YOLOv5_Pig+Bytetrack and Segment Anything models has been developed. This method provides precise measurements of pig movements and behaviors, crucial for disease prevention like African Swine Fever. It offers detailed health assessments and enhances farming efficiency, with higher precision than object detection alone, benefiting decision-making in pig farming and disease control.
 # Our Framework
 ![image text](https://github.com/dccdcc7/pig-behavior-base-on-sam/blob/main/framework.png "Our Framework")
-# inference output
+# Inference output
 ![image text](https://github.com/dccdcc7/pig-behavior-base-on-sam/blob/main/pigimage1.png "Our Framework")
 ![image text](https://github.com/dccdcc7/pig-behavior-base-on-sam/blob/main/pigimage.png "Our Framework")
 # Setup
@@ -47,7 +47,8 @@ Click the links below to download the checkpoint for the corresponding model typ
 5. install FastSAM  
 reference: https://github.com/CASIA-IVA-Lab/FastSAM.git  
 note: if your prompt is not linked with text, you don't need to install CLIP
-First download a [model checkpoint](#model-checkpoints).
+Click the links below to download the checkpoint for the corresponding model type we used
+- `FastSAM-s`: [YOLOv8s based Segment Anything Model.](https://drive.google.com/file/d/10XmSj6mmpmRb8NhXbtiuO9cTTBwR_9SV/view?usp=sharing)
 # Usage
 1. Pig Behavior Detection based on SAM
 ```shell
@@ -59,3 +60,10 @@ python yolo1.py
 cd yolo-pyqt
 python yolo1_fastsam.py 
 ```
+# Acknowledge
+- `SAM`: https://github.com/facebookresearch/segment-anything
+- `FastSAM`: https://github.com/CASIA-IVA-Lab/FastSAM
+- `yolov5_Byte`: https://github.com/z1069614715/yolo-pyqt
+- `yolov5_Byte's author`: https://www.bilibili.com/video/BV1BP4y1X7ae/?vd_source=c8452371e7ca510979593165c8d7ac27
+- `ByteTrack`: https://github.com/ifzhang/ByteTrack
+- `yolov5`: https://github.com/ultralytics/yolov5
