@@ -8,23 +8,25 @@ The pig farming industry is vital to animal husbandry, with health assessments k
 # usage
 1. required packages
 ```shell
-matplotlib>=3.3  
-numpy>=1.23.5  
-opencv-python>=4.6.0  
-pillow>=10.3.0  
-PyYAML>=5.3.1  
-requests>=2.32.2  
-scipy>=1.4.1  
-thop>=0.1.1  # FLOPs computation  
-torch>=1.8.0  
-torchvision>=0.9.0  
-tqdm>=4.66.3  
-ultralytics==8.0.232  
-pandas>=1.1.4  
-seaborn>=0.11.0  
-setuptools>=70.0.0  
-onnxruntime  
-onnx
+conda create -n FastSAM python=3.8
+conda activate pigseg
+pip install matplotlib>=3.3  
+pip install numpy>=1.23.5  
+pip install opencv-python>=4.6.0  
+pip install pillow>=10.3.0  
+pip install PyYAML>=5.3.1  
+pip install requests>=2.32.2  
+pip install scipy>=1.4.1  
+pip install thop>=0.1.1  # FLOPs computation  
+pip install torch>=1.8.0  
+pip install torchvision>=0.9.0  
+pip install tqdm>=4.66.3  
+pip install ultralytics==8.0.232  
+pip install pandas>=1.1.4  
+pip install seaborn>=0.11.0  
+pip install setuptools>=70.0.0  
+pip install onnxruntime  
+pip install onnx
 ```
 3. install bytetrack
 ```shell
