@@ -5,7 +5,7 @@ The pig farming industry is vital to animal husbandry, with health assessments k
 # inference output
 ![image text](https://github.com/dccdcc7/pig-behavior-base-on-sam/blob/main/pigimage1.png "Our Framework")
 ![image text](https://github.com/dccdcc7/pig-behavior-base-on-sam/blob/main/pigimage.png "Our Framework")
-# usage
+# Setup
 1. required packages
 ```shell
 conda create -n FastSAM python=3.8
@@ -48,4 +48,14 @@ Click the links below to download the checkpoint for the corresponding model typ
 reference: https://github.com/CASIA-IVA-Lab/FastSAM.git  
 note: if your prompt is not linked with text, you don't need to install CLIP
 First download a [model checkpoint](#model-checkpoints).
-
+# Usage
+1. Pig Behavior Detection based on SAM
+```shell
+cd yolo-pyqt
+python yolo1.py 
+```
+2. Pig Behavior Detection based on SAM
+```shell
+cd yolo-pyqt
+python yolo1_fastsam.py 
+```
