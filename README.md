@@ -6,6 +6,7 @@ The pig farming industry is vital to animal husbandry, with health assessments k
 
 # usage
 1. required packages
+```shell
 matplotlib>=3.3  
 numpy>=1.23.5  
 opencv-python>=4.6.0  
@@ -23,15 +24,24 @@ seaborn>=0.11.0
 setuptools>=70.0.0  
 onnxruntime  
 onnx
-2. install bytetrack
+```
+3. install bytetrack
+```shell
 git clone https://github.com/ifzhang/ByteTrack.git  
 cd ByteTrack  
 pip3 install -r requirements.txt  
 python3 setup.py develop  
 pip3 install cython; pip3 install 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI'  
 pip3 install cython_bbox
-3. install segment-anything
+```
+4. install segment-anything
+```shell
 pip install git+https://github.com/facebookresearch/segment-anything.git  
-4. install FastSAM
-https://github.com/CASIA-IVA-Lab/FastSAM.git  
+```
+Click the links below to download the checkpoint for the corresponding model type we used
+- `vit_b`: [ViT-B SAM model.](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth)
+
+5. install FastSAM  
+reference: https://github.com/CASIA-IVA-Lab/FastSAM.git  
 note: if your prompt is not linked with text, you don't need to install CLIP
+First download a [model checkpoint](#model-checkpoints).
