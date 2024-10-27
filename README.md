@@ -1,7 +1,8 @@
 # This is the implementation of A New Method for Pig Behavior Detection - Tracking and Segmentation Them With Sam
 The pig farming industry is vital to animal husbandry, with health assessments key to efficient production. Traditional methods relying on manual observation are inadequate for modern, large-scale operations. To address this, a new approach combining multi-target tracking and instance segmentation using improved YOLOv5_Pig+Bytetrack and Segment Anything models has been developed. This method provides precise measurements of pig movements and behaviors, crucial for disease prevention like African Swine Fever. It offers detailed health assessments and enhances farming efficiency, with higher precision than object detection alone, benefiting decision-making in pig farming and disease control.
 # Our Framework
-！[Our Framework][]
+![image text](https://github.com/dccdcc7/pig-behavior-base-on-sam/edit/main/framework.png "DBSCAN Performance Comparison")
+
 # usage
 1. required packages
 matplotlib>=3.3  
