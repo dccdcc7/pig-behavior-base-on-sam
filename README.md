@@ -3,7 +3,8 @@ The pig farming industry is vital to animal husbandry, with health assessments k
 # Our Framework
 ![image text](https://github.com/dccdcc7/pig-behavior-base-on-sam/blob/main/framework.png "Our Framework")
 # inference output
-
+![image text](https://github.com/dccdcc7/pig-behavior-base-on-sam/blob/main/pigimage1.png "Our Framework")
+![image text](https://github.com/dccdcc7/pig-behavior-base-on-sam/blob/main/pigimage.png "Our Framework")
 # usage
 1. required packages
 ```shell
@@ -45,3 +46,4 @@ Click the links below to download the checkpoint for the corresponding model typ
 reference: https://github.com/CASIA-IVA-Lab/FastSAM.git  
 note: if your prompt is not linked with text, you don't need to install CLIP
 First download a [model checkpoint](#model-checkpoints).
+
